@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_more"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:background="@mipmap/ic_launcher"/>
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/image_view_id_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_more"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/ic_launcher"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image_view_id_02"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/text_view_id"
+            android:text="点击登录即可发表评论及同步已收藏视频"/>
+        <Button
+            android:id="@+id/button_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_id"
+            android:layout_marginTop="10dp"
+           android:layout_alignLeft="@+id/text_view_id"
+            android:text="收藏"/>
+        <Button
+            android:id="@+id/button_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_id"
+            android:layout_marginTop="10dp"
+            android:layout_alignRight="@+id/text_view_id"
+            android:text="评论"/>
+
+    </RelativeLayout>
+    <!--设置分隔条透明-->
+<ListView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:dividerHeight="10dp"
+    android:divider="#00000000"
+    android:id="@+id/wo_de_lv"
+    android:entries="@array/WoDe"
+    >
+</ListView>
+</LinearLayout>

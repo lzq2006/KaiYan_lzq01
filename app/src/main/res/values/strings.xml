@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">KaiYan_lzq01</string>
+    <string name="title_activity_info">InfoActivity</string>
+
+    <!--WoDeFrament-->
+    <string-array name="WoDe">
+        <item>我的消息</item>
+        <item>我的关注</item>
+        <item>我的缓存</item>
+        <item>意见反馈</item>
+        <item>我要投稿</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_index"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jp.kaiyan_lzq01.IndexActivity"
+    >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/index_iv"
+            android:background="@mipmap/test"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/button_index2"
+            android:background="@mipmap/kaiyan_button"
+            android:layout_centerInParent="true"
+           />
+        <TextView
+            android:text="EyePetizer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/button_index2"
+            android:id="@+id/textView"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+        <TextView
+            android:text="开眼"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_centerHorizontal="true"
+            android:id="@+id/textView2"
+            android:textColor="@color/colorWhite"
+            android:layout_below="@+id/textView"
+            android:textSize="20dp" />
+
+
+
+        <TextView
+            android:text="Daily appetizers for your eyes.Bon eyepetit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/textView2"
+            android:textStyle="bold"
+            android:layout_marginTop="90dp" />
+
+        <TextView
+            android:text="每日精选视频推介，让你大开眼界"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/textView3"
+            android:layout_marginBottom="30dp"/>
+
+    </RelativeLayout>
+
+
+</FrameLayout>

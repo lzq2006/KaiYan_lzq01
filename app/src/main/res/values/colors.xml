@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <!-- 底部导航栏radioButton颜色 -->
+    <color name="radioButton_checked">#FC5832</color>
+    <color name="radioButton_no_checked">#BFB9B9</color>
+</resources>
