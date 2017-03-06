@@ -13,7 +13,7 @@ import com.example.jp.kaiyan_lzq01.faxian.FaXianFragment;
 import com.example.jp.kaiyan_lzq01.guanzhu.GuanZhuFragment;
 import com.example.jp.kaiyan_lzq01.jingxuan.JingXuanFragment;
 import com.example.jp.kaiyan_lzq01.wode.WoDeFragment;
-/*testvvv ttttesp*/
+/*tev tp*/
 public class MainActivity extends AppCompatActivity implements RadioGroup.OnCheckedChangeListener {
 
     private RadioGroup rgBottom;
